@@ -11,6 +11,6 @@ With the rapidly evolving capabilities of technology, financial fraud has emerge
 In the context of machine learning, the problem of fraud detection can be formulated in two different ways: 
 1)	**Classification Problem**: A supervised learning task (binary classification), where given a set of input variables, the model would classify the transaction as normal or fraudulent. 
 
-2)	**Anomaly Detection**: An unsupervised learning task, where common patterns of normal transactions are learnt by the model and use to identify data points that significantly deviate from these patterns as anomalies. The task can also be viewed as semi-supervised as data labels are used to guide in obtaining an optimal decision threshold for labelling anomalies. 
+2)	**Anomaly Detection**: An semi-supervised learning task, where patterns of normal transactions are learnt by the model and used to identify anomalies (i.e. data points that significantly deviate from the normal transaction patterns). The task can is semi-supervised because data labels are used to obtain an optimal decision threshold for anomalies. 
 
 **The goal of this project was to compare these two formulations and determine which of them a) results in better perfomrnace & b) provides a better representation of the credit card fraud detection task.** 
